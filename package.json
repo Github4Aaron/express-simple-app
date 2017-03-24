@@ -1,0 +1,22 @@
+{
+  "name": "express-simple-app",
+  "version": "1.0.0",
+  "description": "a simple node app using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Github4Aaron/express-simple-app.git"
+  },
+  "author": "Aaron Strouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Github4Aaron/express-simple-app/issues"
+  },
+  "homepage": "https://github.com/Github4Aaron/express-simple-app#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
