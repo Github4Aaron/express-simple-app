@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Github4Aaron/express-simple-app#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "jade": "^1.11.0"
   }
 }
