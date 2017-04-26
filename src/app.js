@@ -4,6 +4,10 @@ var express = require('express'),
 	  posts = require('./mock/posts.json');
 
 var app = express();
+//middleware is the logic in the "middle" time between a request made by a client but before it arrives at a route.
+// Express static method.  One of few places we access the express module directly, instead of teh app variable.
+//Paths are relative to node process that is running the file. 
+app.use('/static', express.static(__dirname + '/public'))
 
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/templates')
