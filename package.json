@@ -1,23 +1,23 @@
 {
-  "name": "express-simple-app",
+  "name": "treehouse-express-basics",
   "version": "1.0.0",
-  "description": "a simple node app using express",
+  "description": "This repo features an express app to serve as demo in the Express Basics course on Treehouse.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Github4Aaron/express-simple-app.git"
+    "url": "https://github.com/hdngr/treehouse-express-basics.git"
   },
-  "author": "Aaron Strouse",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Github4Aaron/express-simple-app/issues"
+    "url": "https://github.com/hdngr/treehouse-express-basics/issues"
   },
-  "homepage": "https://github.com/Github4Aaron/express-simple-app#readme",
+  "homepage": "https://github.com/hdngr/treehouse-express-basics",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.13.0",
     "jade": "^1.11.0"
   }
 }
